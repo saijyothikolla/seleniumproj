@@ -2,23 +2,23 @@
 <testng-results skipped="0" failed="1" ignored="1" total="4" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="HubSpot Regression Suite" duration-ms="38370" started-at="2020-04-23T22:30:50Z" finished-at="2020-04-23T22:31:29Z">
+  <suite name="HubSpot Regression Suite" duration-ms="43968" started-at="2020-04-24T14:50:35Z" finished-at="2020-04-24T14:51:19Z">
     <groups>
       <group name="sanity">
-        <method signature="LoginPageTest.verifySignUpLinkTest()[pri:2, instance:com.qa.hubspot.tests.LoginPageTest@50cf5a23]" name="verifySignUpLinkTest" class="com.qa.hubspot.tests.LoginPageTest"/>
+        <method signature="LoginPageTest.verifySignUpLinkTest()[pri:2, instance:com.qa.hubspot.tests.LoginPageTest@1af1347d]" name="verifySignUpLinkTest" class="com.qa.hubspot.tests.LoginPageTest"/>
       </group> <!-- sanity -->
     </groups>
-    <test name="HubSpot Regression Test" duration-ms="38370" started-at="2020-04-23T22:30:50Z" finished-at="2020-04-23T22:31:29Z">
+    <test name="HubSpot Regression Test" duration-ms="43968" started-at="2020-04-24T14:50:35Z" finished-at="2020-04-24T14:51:19Z">
       <class name="com.qa.hubspot.tests.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@50cf5a23]" name="setUp" is-config="true" duration-ms="6894" started-at="2020-04-23T22:30:51Z" finished-at="2020-04-23T22:30:57Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@1af1347d]" name="setUp" is-config="true" duration-ms="12240" started-at="2020-04-24T14:50:35Z" finished-at="2020-04-24T14:50:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:1, instance:com.qa.hubspot.tests.LoginPageTest@50cf5a23]" name="verifyLoginPageTitleTest" duration-ms="5966" started-at="2020-04-23T22:30:57Z" description="verify login page title test.....!!!" finished-at="2020-04-23T22:31:03Z">
+        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:1, instance:com.qa.hubspot.tests.LoginPageTest@1af1347d]" name="verifyLoginPageTitleTest" duration-ms="4629" started-at="2020-04-24T14:50:47Z" description="verify login page title test.....!!!" finished-at="2020-04-24T14:50:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPageTitleTest -->
-        <test-method status="FAIL" signature="verifySignUpLinkTest()[pri:2, instance:com.qa.hubspot.tests.LoginPageTest@50cf5a23]" name="verifySignUpLinkTest" duration-ms="20185" started-at="2020-04-23T22:31:03Z" finished-at="2020-04-23T22:31:24Z">
+        <test-method status="FAIL" signature="verifySignUpLinkTest()[pri:2, instance:com.qa.hubspot.tests.LoginPageTest@1af1347d]" name="verifySignUpLinkTest" duration-ms="20162" started-at="2020-04-24T14:50:52Z" finished-at="2020-04-24T14:51:12Z">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[Expected condition failed: waiting for presence of element located by: By.linkText: Sign up11 (tried for 20 second(s) with 500 milliseconds interval)]]>
@@ -61,8 +61,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-PV104NIV', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.122, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\SRI\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:2782}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 521380bae0e822c1f7c94863b66bdc7e
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.122, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\SRI\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:3025}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 206571067f85b5018d531e9e4df93089
 *** Element info: {Using=link text, value=Sign up11}
 at sun.reflect.GeneratedConstructorAccessor17.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -87,11 +87,11 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySignUpLinkTest -->
-        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.qa.hubspot.tests.LoginPageTest@50cf5a23]" name="loginTest" duration-ms="3965" started-at="2020-04-23T22:31:24Z" finished-at="2020-04-23T22:31:28Z">
+        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.qa.hubspot.tests.LoginPageTest@1af1347d]" name="loginTest" duration-ms="5374" started-at="2020-04-24T14:51:13Z" finished-at="2020-04-24T14:51:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@50cf5a23]" name="tearDown" is-config="true" duration-ms="587" started-at="2020-04-23T22:31:28Z" finished-at="2020-04-23T22:31:29Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@1af1347d]" name="tearDown" is-config="true" duration-ms="619" started-at="2020-04-24T14:51:18Z" finished-at="2020-04-24T14:51:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
